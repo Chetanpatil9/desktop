@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+}
+
+
+
+/* _______Head________ */
+
+.head {
+  width: 90%;
+  height: 30px;
+  padding: 50px 20px;
+  color: #fffdfd;
+  background-color: #1b4a90;
+  border-radius: 0px, 0px, 50px, 50px;
+  margin-top: 0px;
+  position: fixed;
+  flex-wrap: wrap;
+}
+
+.logo h1{
+  font-size: 35px;
+  font-weight: 900;
+  
+}
+
+.head .icon {
+  margin-right: 20px;
+}
+
+
+.flexSB{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.icon{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255,255,255,0.3);
+  color: #1eb2a6;
+  transition: 0.5s;
+}
+
+.icon:hover{
+  cursor: pointer;
+  background-color: #1eb2a6;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+.media{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255,255,255,0.3);
+  color: #1eb2a6;
+  transition: 0.5s;
+}
+
+.media:hover{
+  cursor: pointer;
+  background-color: #1eb2a6;
+  color: #fff;
+}
+
+.head .media {
+  margin-right: -750px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+
+
+
+
+/* ________Home Page_______ */
+
+
+#home-page {
+   display: flex;
+   justify-content: center;
+   padding: 0.5rem;
+}
+
+#home-page-container{
+  width: 90%;
+}
+
+#home-page-container hr{
+  height: 2rem;
+  background-color: rgb(240, 240, 240);
+  border: none;
+  margin-bottom: 0.5rem;
+
+}
+
+
+#home-page-fresh-from-our-community h2{
+  font-size: 1rem;
+}
+
+#home-page-fresh-from-our-community-cards-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  
+}
+
+
+/* ___________________ */
+
+
+#home-page-fan-favourites h2{
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+#home-page-fan-favourites-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img1{
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  background-color: #1b4a90;
+}
+
+
+.recommended div{
+  width: 70rem;
+  height: 10rem;
+  padding-top: 10px;
+  padding-left: 50px;
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+  border: 1px solid rgb(19, 19, 19);
+  margin-bottom: 2rem;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px rgb(189, 219, 249);
+  
+ 
+}
+
+.apply{
+  width: 80px;
+  height: 30px;
+  margin-left: 55rem;
+  margin-top: -100rem;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: rgb(96, 162, 229);
+  cursor: pointer;
+}
+
+.space{
+  word-spacing: 25rem;
+}
